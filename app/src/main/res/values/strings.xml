@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Super!Market</string>
+    <string name="avg_rating">%1$s</string>
+</resources>
