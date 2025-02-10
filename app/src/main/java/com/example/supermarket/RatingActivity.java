@@ -69,6 +69,8 @@ public class RatingActivity extends AppCompatActivity {
             float avg = (liquorRating.getRating() + produceRating.getRating() + meatRating.getRating()
                     + cheeseRating.getRating() + checkoutRating.getRating()) / 5;
 
+            currentRating.setAverageRating(avg);
+
             Resources res = getResources();
             String avgStr = String.format("%.2f", avg);
             String avgRating = res.getString(R.string.avg_rating, avgStr);
